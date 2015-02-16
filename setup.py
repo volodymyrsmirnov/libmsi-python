@@ -8,13 +8,13 @@ from distutils.core import setup
 
 setup(
     name='libmsi-python',
-    version='0.0.1',
+    version='0.0.2',
     description='Python bindings for libmsi from msitools. Read only for now.',
     author='Vladimir Smirnov',
     author_email='vladimir@smirnov.im',
     url='https://github.com/mindcollapse/libmsi-python',
     license='BSD',
-    py_modules=['msi'],
+    packages=['msi'],
     install_requires=['cffi']
 )
 
