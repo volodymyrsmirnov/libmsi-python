@@ -12,7 +12,8 @@ IMPORTANT: required libgsf-1 version is 1.14.27, download this package (and libg
 * cd ..
 * wget http://ftp.gnome.org/pub/GNOME/sources/msitools/0.93/msitools-0.93.tar.xz && tar xvf msitools-0.93.tar.xz && cd msitools-0.93#
 * ./configure --prefix /usr && make && make install
-* pip -e git+https://github.com/mindcollapse/libmsi-python.git#egg=libmsi-python
+* pip install cffi
+* pip install -e git+https://github.com/mindcollapse/libmsi-python.git#egg=libmsi-python
 
 ## Example
 ```python
