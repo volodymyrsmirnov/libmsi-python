@@ -6,14 +6,14 @@ Read-only wrapper for libmsi from msitools: https://wiki.gnome.org/msitools
 
 IMPORTANT: required libgsf-1 version is 1.14.27, download this package (and libgsf-1-common) manually from Ubuntu repo and install using dpkg -i if you have previous version.
 
-* apt-get install bison python-dev build-essential uuid-dev libgsf-1-dev automake autoconf gnu-standards autoconf-doc libtool gettext autoconf-archive
-* wget http://ftp.de.debian.org/debian/pool/main/g/gcab/gcab_0.4.orig.tar.xz && tar xvf gcab_0.4.orig.tar.xz && cd gcab-0.4
-* ./configure --prefix=/usr && make && make install
-* cd ..
-* git clone https://github.com/mindcollapse/libmsi-stripped.git && cd libmsi-stripped
-* autoreconf -fi && ./configure --prefix /usr && make && make install
-* pip install cffi
-* pip install https://github.com/mindcollapse/libmsi-python/archive/master.zip
+* `apt-get install bison python-dev build-essential uuid-dev libgsf-1-dev automake autoconf gnu-standards autoconf-doc libtool gettext autoconf-archive`
+* `wget http://ftp.de.debian.org/debian/pool/main/g/gcab/gcab_0.4.orig.tar.xz && tar xvf gcab_0.4.orig.tar.xz && cd gcab-0.4`
+* `./configure --prefix=/usr && make && make install`
+* `cd ..`
+* `git clone https://github.com/mindcollapse/libmsi-stripped.git && cd libmsi-stripped`
+* `autoreconf -fi && ./configure --prefix /usr && make && make install`
+* `pip install cffi`
+* `pip install https://github.com/mindcollapse/libmsi-python/archive/master.zip`
 
 ## Usage example
 ```python
